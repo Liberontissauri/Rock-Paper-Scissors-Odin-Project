@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body  {
+    background-color: #0e1b23;
+    display: flex;
+
+    flex-direction: column;
+    
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: #e5dfd9;
+    font-size: 28pt;
+
+    margin-top: 40px;
+    margin-left: 40px;
+    
+
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 10px solid #652948;
+}
+
+h2 {
+    
+    font-family: 'Roboto', sans-serif;
+    color: #e5dfd9;
+
+    text-align: center;
+    
+    position: relative;
+    top: 70px;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#ChoiceText {
+    top: 120px;
+}
+
+
+#RoundDisplay {
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 120px;
+}
+
+.Selection {
+    height: 10em;
+    width: 10em;
+
+    background-image: url(./images/paper_symbol.png);
+    
+
+    background-color: #e5dfd9;
+}
+
+.Selection img {
+    visibility: hidden;
+}
+
+#RoundButtons {
+    position: absolute;
+    bottom: 0;
+
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 90px;
+}
+
+#RoundButtons button {
+    
+    height: 100px;
+    width: 100px;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
